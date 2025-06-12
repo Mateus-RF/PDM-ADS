@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivitySobre">
+
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="332dp"
+        android:layout_height="218dp"
+        android:layout_marginTop="48dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.493"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/cris" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="161dp"
+        android:layout_height="21dp"
+        android:layout_marginStart="48dp"
+        android:layout_marginTop="336dp"
+        android:text="Developed by Mateus "
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="313dp"
+        android:layout_height="74dp"
+        android:layout_marginTop="376dp"
+        android:text="I’m a student of Systems Analysis and Development at IFCE (Federal Institute of Ceará), currently in my 3rd semester."
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.489"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/button3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="48dp"
+        android:layout_marginTop="664dp"
+        android:paddingLeft="30dp"
+        app:icon="?attr/homeAsUpIndicator"
+        app:iconTint="#FBFBFB"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+</androidx.constraintlayout.widget.ConstraintLayout>
