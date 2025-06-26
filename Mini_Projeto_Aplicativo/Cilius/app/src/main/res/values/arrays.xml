@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="condicao_array">
+        <item>Crítica – Com risco iminente de queda</item>
+        <item>Urgente – Retirada, afetando gravemente a localidade</item>
+        <item>Grave – Está afetando a rede elétrica e causando dano à rua e casas</item>
+        <item>Alerta – Está próxima da rede elétrica e começando a danificar a rua</item>
+        <item>Instável – Apresenta inclinação acentuada ou raízes expostas</item>
+        <item>Poda Imediata- Arvore de porte adequado para retirada</item>
+        <item>Estável – Planta saudável, mas necessita poda preventiva</item>
+        <item>Doente – Apresenta sinais de doenças foliares ou no tronco</item>
+        <item>Regular – Condição regular, acompanhar crescimento</item>
+        <item>Saudavel – Planta em boas condições, sem necessidade de intervenções</item>
+        <item>Em Crescimento – Desenvolvendo-se normalmente</item>
+        <item>Recém-plantada - ainda em fase de adaptação</item>
+        <item>Removida – Arvore removida da localidade</item>
+    </string-array>
+
+</resources>

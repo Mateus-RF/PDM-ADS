@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".DetalheArvoreActivity">
+
+
+  <TextView
+      android:id="@+id/textViewLog"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:layout_marginStart="60dp"
+      android:layout_marginTop="20dp"
+      android:text="Longitude: -21.12012"
+      android:textSize="22sp"
+      app:layout_constraintStart_toStartOf="parent"
+      app:layout_constraintTop_toBottomOf="@+id/textViewLat" />
+
+  <TextView
+      android:id="@+id/textViewCondicao"
+      android:layout_width="295dp"
+      android:layout_height="wrap_content"
+      android:layout_marginStart="60dp"
+      android:layout_marginTop="20dp"
+      android:text="Recém-plantada, ainda em fase de adaptação"
+      android:textSize="22sp"
+      app:layout_constraintStart_toStartOf="parent"
+      app:layout_constraintTop_toBottomOf="@+id/textViewData" />
+
+  <TextView
+      android:id="@+id/textViewLat"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:layout_marginStart="60dp"
+      android:layout_marginTop="20dp"
+      android:text="Latitude: -21.12012"
+      android:textSize="22sp"
+      app:layout_constraintStart_toStartOf="parent"
+      app:layout_constraintTop_toBottomOf="@+id/textViewCondicao" />
+
+  <ImageView
+      android:id="@+id/imageViewEspecie"
+      android:layout_width="160dp"
+      android:layout_height="160dp"
+      android:layout_marginTop="56dp"
+      android:src="@drawable/nature_icon"
+      app:layout_constraintEnd_toEndOf="parent"
+      app:layout_constraintHorizontal_bias="0.498"
+      app:layout_constraintStart_toStartOf="parent"
+      app:layout_constraintTop_toTopOf="parent" />
+
+  <TextView
+      android:id="@+id/textViewEspecie"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:layout_marginStart="60dp"
+      android:layout_marginTop="240dp"
+      android:text="Especie: Aroira"
+      android:textSize="22dp"
+      app:layout_constraintStart_toStartOf="parent"
+      app:layout_constraintTop_toTopOf="parent" />
+
+  <TextView
+      android:id="@+id/textViewData"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:layout_marginStart="60dp"
+      android:layout_marginTop="20dp"
+      android:text="Data: 29/09/2009"
+      android:textSize="22sp"
+      app:layout_constraintStart_toStartOf="parent"
+      app:layout_constraintTop_toBottomOf="@+id/textViewEspecie" />
+
+  <Button
+      android:id="@+id/buttonEdit"
+      android:layout_width="135dp"
+      android:layout_height="50dp"
+      android:layout_marginStart="240dp"
+      android:layout_marginTop="668dp"
+      android:paddingLeft="26dp"
+      android:text="Editar"
+      android:textAlignment="center"
+      android:textSize="20sp"
+      android:textStyle="bold"
+      app:iconPadding="20dp"
+      app:iconSize="26dp"
+      app:layout_constraintStart_toStartOf="parent"
+      app:layout_constraintTop_toTopOf="parent"
+      tools:ignore="RtlHardcoded" />
+
+  <Button
+      android:id="@+id/buttonRelatorio"
+      android:layout_width="135dp"
+      android:layout_height="50dp"
+      android:layout_marginStart="240dp"
+      android:layout_marginTop="15dp"
+      android:text="Relatorio"
+      android:textSize="20sp"
+      android:textStyle="bold"
+      app:layout_constraintStart_toStartOf="parent"
+      app:layout_constraintTop_toBottomOf="@+id/buttonEdit" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
