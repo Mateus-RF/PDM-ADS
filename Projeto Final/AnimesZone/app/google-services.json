@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "1085596009886",
+    "project_id": "com-example-animeszone",
+    "storage_bucket": "com-example-animeszone.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1085596009886:android:0816e7cc6b52d21453828f",
+        "android_client_info": {
+          "package_name": "com.example.animeszone"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDbYYg8yKksNGErrQ4emSWZ10grnHrLUk8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

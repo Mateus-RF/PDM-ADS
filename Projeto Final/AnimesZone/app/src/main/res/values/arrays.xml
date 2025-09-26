@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="condicao_array">
+        <item>Completed</item>
+        <item>Plan to Watch</item>
+        <item>Watching</item>
+    </string-array>
+
+</resources>
